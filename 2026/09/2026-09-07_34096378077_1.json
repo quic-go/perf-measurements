@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-09-07T07:43:05.214967+00:00",
+  "run": {
+    "id": 34096378077,
+    "attempt": 1,
+    "url": "https://github.com/quic-go/perf-dashboard/actions/runs/34096378077/attempts/1"
+  },
+  "nodes": {
+    "server": {
+      "provider": "aws",
+      "region": "ap-northeast-1",
+      "zone": "ap-northeast-1a",
+      "machine_type": "c6i.large",
+      "image_id": "ami-02cef00ddbfe2567b"
+    },
+    "client": {
+      "provider": "aws",
+      "region": "us-west-2",
+      "zone": "us-west-2b",
+      "machine_type": "c6i.large",
+      "image_id": "ami-0850a2e3875955079"
+    }
+  },
+  "results": [
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "msquic",
+      "measurements": {
+        "download_bits_per_second": 374449000,
+        "download_bytes": 1000000000,
+        "upload_bits_per_second": 374449000,
+        "upload_bytes": 1000000000
+      },
+      "parameters": {
+        "download_bytes": 1000000000,
+        "upload_bytes": 1000000000
+      },
+      "server_implementation": "msquic",
+      "started_at": "2026-09-07T07:42:22.232485+00:00",
+      "status": "success",
+      "test": "throughput"
+    },
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "msquic",
+      "measurements": {
+        "download_bits_per_second": 332828000,
+        "download_bytes": 1000000000,
+        "upload_bits_per_second": 332828000,
+        "upload_bytes": 1000000000
+      },
+      "parameters": {
+        "download_bytes": 1000000000,
+        "upload_bytes": 1000000000
+      },
+      "server_implementation": "quic-go",
+      "started_at": "2026-09-07T07:40:32.321068+00:00",
+      "status": "success",
+      "test": "throughput"
+    },
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "quic-go",
+      "measurements": {
+        "download_bits_per_second": 384537112,
+        "download_bytes": 1000000000,
+        "upload_bits_per_second": 489908608,
+        "upload_bytes": 1000000000
+      },
+      "parameters": {
+        "download_bytes": 1000000000,
+        "upload_bytes": 1000000000
+      },
+      "server_implementation": "msquic",
+      "started_at": "2026-09-07T07:41:19.797181+00:00",
+      "status": "success",
+      "test": "throughput"
+    },
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-07T06:28:59Z",
+          "implementations": {
+            "msquic": {
+              "commit": "ceba4ecd2a87d2eda59b45d1e708648560c25918",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "908f9b5fe2613fc210c69c7adb0ed26e45698bf5",
+              "go_version": "go1.27.1",
+              "perf_commit": "029911fa8b387685db8e969ea44cd05eb8a70408"
+            }
+          },
+          "perf_dashboard_commit": "8bf138163191e66580e11ea2a9169d79ae619f12",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "quic-go",
+      "measurements": {
+        "download_bits_per_second": 569733454,
+        "download_bytes": 1000000000,
+        "upload_bits_per_second": 455251534,
+        "upload_bytes": 1000000000
+      },
+      "parameters": {
+        "download_bytes": 1000000000,
+        "upload_bytes": 1000000000
+      },
+      "server_implementation": "quic-go",
+      "started_at": "2026-09-07T07:39:36.928409+00:00",
+      "status": "success",
+      "test": "throughput"
+    }
+  ]
+}
