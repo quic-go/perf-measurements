@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "test": "handshake",
+  "recorded_at": "2026-09-13T16:53:13.270893+00:00",
+  "run": {
+    "id": 34769727887,
+    "attempt": 1,
+    "url": "https://github.com/quic-go/perf-dashboard/actions/runs/34769727887/attempts/1"
+  },
+  "nodes": {
+    "server": {
+      "provider": "azure",
+      "region": "westus2",
+      "zone": "",
+      "machine_type": "Standard_D2s_v5",
+      "image_id": "/subscriptions/0a777ddf-f50a-402f-a908-a4923efb1afe/resourceGroups/quic-perf-dashboard/providers/Microsoft.Compute/images/quic-perf-runner-20260913161126"
+    },
+    "client": {
+      "provider": "azure",
+      "region": "westus2",
+      "zone": "",
+      "machine_type": "Standard_D2s_v5",
+      "image_id": "/subscriptions/0a777ddf-f50a-402f-a908-a4923efb1afe/resourceGroups/quic-perf-dashboard/providers/Microsoft.Compute/images/quic-perf-runner-20260913161126"
+    }
+  },
+  "results": [
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "msquic",
+      "measurements": {
+        "handshakes_per_second": 632
+      },
+      "parameters": {
+        "concurrency": 64,
+        "duration_seconds": 12
+      },
+      "server_implementation": "msquic",
+      "started_at": "2026-09-13T16:52:41.151027+00:00",
+      "status": "success",
+      "test": "handshake"
+    },
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "msquic",
+      "measurements": {
+        "handshakes_per_second": 708
+      },
+      "parameters": {
+        "concurrency": 64,
+        "duration_seconds": 12
+      },
+      "server_implementation": "quic-go",
+      "started_at": "2026-09-13T16:51:40.454532+00:00",
+      "status": "success",
+      "test": "handshake"
+    },
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "quic-go",
+      "measurements": {
+        "failed_handshakes": 0,
+        "handshakes": 4828,
+        "handshakes_per_second": 402.3333333333333,
+        "incomplete_handshakes": 64
+      },
+      "parameters": {
+        "concurrency": 64,
+        "duration_seconds": 12
+      },
+      "server_implementation": "msquic",
+      "started_at": "2026-09-13T16:52:11.459163+00:00",
+      "status": "success",
+      "test": "handshake"
+    },
+    {
+      "build_info": {
+        "client": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        },
+        "server": {
+          "built_at": "2026-09-13T16:17:31Z",
+          "implementations": {
+            "msquic": {
+              "commit": "80a065112426bce68c1da42d026478d3e40fd45e",
+              "cxx_version": "13.3.0"
+            },
+            "quic-go": {
+              "commit": "fcc5f13aa99a9ef658ebcbf70e6026063b2704a9",
+              "go_version": "go1.27.1",
+              "perf_commit": "9b5a6beb8caf208d9746bceccefc0296182f27d0"
+            }
+          },
+          "perf_dashboard_commit": "9355b21b106f0ebc974fa5cc8eb7ab7f403b46aa",
+          "schema_version": 1
+        }
+      },
+      "client_implementation": "quic-go",
+      "measurements": {
+        "failed_handshakes": 0,
+        "handshakes": 9638,
+        "handshakes_per_second": 803.1666666666666,
+        "incomplete_handshakes": 64
+      },
+      "parameters": {
+        "concurrency": 64,
+        "duration_seconds": 12
+      },
+      "server_implementation": "quic-go",
+      "started_at": "2026-09-13T16:51:02.847234+00:00",
+      "status": "success",
+      "test": "handshake"
+    }
+  ]
+}
